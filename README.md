@@ -1,10 +1,5 @@
 # Pupdopt
 
-<!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
-<!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/prateekcode/Android-Canray-Projects/workflows/Check/badge.svg)
-
-
 ## :scroll: Description
 Pupdopt is puppy adoption app for the adoption of the cute puppies.
 
