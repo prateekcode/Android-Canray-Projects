@@ -30,17 +30,16 @@ import com.example.androiddevchallenge.model.Puppy
 import com.example.androiddevchallenge.ui.theme.*
 
 @Composable
-fun PuppyListDogCard(puppy: Puppy, onClick: (Int) -> Unit) {
+fun PuppyListDogCard(puppy: Puppy) {
     Card(
         modifier = Modifier
-            .border(width = 1.dp, color = lightGrey, shape = RoundedCornerShape(7.dp)),
-        elevation = 5.dp,
-        backgroundColor = darkGrey
+            .border(width = 0.5.dp, color = lightGrey, shape = RoundedCornerShape(7.dp)),
+        elevation = 13.dp,
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 5.dp, end = 5.dp, top = 5.dp, bottom = 5.dp),
+                .padding(10.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Box(
@@ -59,7 +58,7 @@ fun PuppyListDogCard(puppy: Puppy, onClick: (Int) -> Unit) {
                     contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
-                        .padding(4.dp)
+                        .padding(6.dp)
                         .clip(RoundedCornerShape(7.dp))
                 )
             }
@@ -99,7 +98,6 @@ fun PuppyListDogCard(puppy: Puppy, onClick: (Int) -> Unit) {
                 Text(
                     text = "${puppy.age} yrs",
                     style = MaterialTheme.typography.body1.copy(fontWeight = FontWeight.Medium),
-                    color = lightGrey
                 )
                 Row(verticalAlignment = Alignment.Bottom, modifier = Modifier.padding(top = 3.dp)) {
                     val icon: ImageVector = Icons.Default.LocationOn
@@ -112,8 +110,7 @@ fun PuppyListDogCard(puppy: Puppy, onClick: (Int) -> Unit) {
                     Spacer(modifier = Modifier.padding(start = 2.dp))
                     Text(
                         text = puppy.address,
-                        style = MaterialTheme.typography.caption,
-                        color = white
+                        style = MaterialTheme.typography.caption
                     )
                     Row(
                         modifier = Modifier
@@ -143,6 +140,7 @@ fun getBackgroundColor(): Color {
 fun getGenderIcon(gender: String): ImageVector {
     return if (gender == "Male") Icons.Default.Male else Icons.Default.Female
 }
+
 
 
 

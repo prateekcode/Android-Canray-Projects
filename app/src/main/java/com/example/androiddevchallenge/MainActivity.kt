@@ -15,7 +15,9 @@
  */
 package com.example.androiddevchallenge
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -31,12 +33,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.androiddevchallenge.components.Header
 import com.example.androiddevchallenge.components.PuppyListDogCard
 import com.example.androiddevchallenge.data.PupList
 import com.example.androiddevchallenge.model.Puppy
 import com.example.androiddevchallenge.navigation.HomeLayout
 import com.example.androiddevchallenge.ui.theme.MyTheme
+import com.example.androiddevchallenge.view.DetailActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         setContent {
             MyTheme {
                 Surface(color = MaterialTheme.colors.background) {
-                    HomeLayout()
+                    HomeLayout(itemClickAction = { index -> launchDetailActivity(this, index) })
                 }
             }
         }
@@ -76,5 +78,13 @@ fun DarkPreview() {
     }
 }
 
+
+fun launchDetailActivity(activity: AppCompatActivity, index: Int) {
+    activity.startActivity(
+        Intent(activity, DetailActivity::class.java).apply {
+            putExtra("index", index)
+        }
+    )
+}
 
 

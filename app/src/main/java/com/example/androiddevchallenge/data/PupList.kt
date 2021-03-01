@@ -14,16 +14,16 @@ private val petList = listOf(
         "Bella",
         "2",
         "Female",
-        "Husky",
+        "Chow Chow",
         "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
         "New York",
-        R.drawable.blue_dog
+        R.drawable.german_shefard
     ),
     Puppy(
         "Max",
         "2",
         "Female",
-        "Roadside",
+        "Siberian Husky",
         "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
         "New York",
         R.drawable.blue_dog
@@ -32,7 +32,7 @@ private val petList = listOf(
         "Tommy",
         "2",
         "Female",
-        "Retriever",
+        "Golden Retriever",
         "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
         "New York",
         R.drawable.blue_dog
