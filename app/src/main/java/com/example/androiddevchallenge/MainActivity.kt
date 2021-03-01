@@ -18,11 +18,24 @@ package com.example.androiddevchallenge
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import com.example.androiddevchallenge.components.Header
+import com.example.androiddevchallenge.components.PuppyListDogCard
+import com.example.androiddevchallenge.data.PupList
+import com.example.androiddevchallenge.model.Puppy
+import com.example.androiddevchallenge.navigation.HomeLayout
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
 class MainActivity : AppCompatActivity() {
@@ -30,10 +43,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MyTheme {
-                MyApp()
+                Surface(color = MaterialTheme.colors.background) {
+                    HomeLayout()
+                }
             }
         }
     }
+
 }
 
 // Start building your app here!
@@ -59,3 +75,6 @@ fun DarkPreview() {
         MyApp()
     }
 }
+
+
+
