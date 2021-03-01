@@ -28,11 +28,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.androiddevchallenge.components.genderColor
-import com.example.androiddevchallenge.components.getGenderIcon
 import com.example.androiddevchallenge.data.PupList
 import com.example.androiddevchallenge.model.Puppy
 import com.example.androiddevchallenge.ui.theme.*
+import com.example.androiddevchallenge.utils.genderColor
+import com.example.androiddevchallenge.utils.getGenderIcon
 
 class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

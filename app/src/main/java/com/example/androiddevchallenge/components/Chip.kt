@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.androiddevchallenge.ui.theme.typography
 import com.example.androiddevchallenge.ui.theme.white
+import com.example.androiddevchallenge.utils.getBackgroundColor
 
 @Composable
 fun Chip(content: String) {

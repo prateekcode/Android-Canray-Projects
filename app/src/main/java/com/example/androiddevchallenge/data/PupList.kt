@@ -15,62 +15,82 @@ private val petList = listOf(
         "2",
         "Female",
         "German Shefard",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "90 miles away",
         R.drawable.german_shefard
     ),
     Puppy(
         "Max",
-        "2",
-        "Female",
+        "1",
+        "Male",
         "White Labrador",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "10 miles away",
         R.drawable.labrador_puppy
     ),
     Puppy(
-        "Tommy",
+        "Oreo",
         "2",
-        "Female",
-        "Blue Dog",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
-        R.drawable.blue_dog
+        "Male",
+        "Boxer Breed",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "Botson",
+        R.drawable.boxer_puppy
     ),
     Puppy(
-        "Jake",
+        "Oscar",
         "2",
-        "Female",
-        "Red Dog",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
+        "Male",
+        "Sant Benard",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
         "New York",
-        R.drawable.red_dog
-    ),
-    Puppy(
-        "Leo",
-        "2",
-        "Female",
-        "Orange Dog",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
-        R.drawable.orange_dog
+        R.drawable.benard_puppy
     ),
     Puppy(
         "Coco",
         "2",
         "Male",
         "Golden Retriever",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "58 miles away",
         R.drawable.golden_retriever
     ),
+    Puppy(
+        "Tommy",
+        "1.5",
+        "Male",
+        "German Shefard",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "19 miles away",
+        R.drawable.blue_dog
+    ),
+
+    Puppy(
+        "Jake",
+        "2",
+        "Female",
+        "German Shefard",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "22 miles away",
+        R.drawable.red_dog
+    ),
+    Puppy(
+        "Leo",
+        "2",
+        "Female",
+        "Golden Retriever",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "40 miles away",
+        R.drawable.orange_dog
+    ),
+
     Puppy(
         "Shadow",
         "2",
         "Male",
         "Pug Breed",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "Botson",
         R.drawable.pug_puppy
     ),
     Puppy(
@@ -78,27 +98,11 @@ private val petList = listOf(
         "2",
         "Male",
         "Pomerian Breed",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "11 miles away",
         R.drawable.pomerian
     ),
-    Puppy(
-        "Oreo",
-        "2",
-        "Male",
-        "Boxer Breed",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
-        R.drawable.boxer_puppy
-    ),
-    Puppy(
-        "Oscar",
-        "2",
-        "Male",
-        "St. Benard",
-        "Bella is a sweet puppy. She has been at shelter since she was born and we'd really love to see her get into a new home soon!. She gets along well with other pets, and is used to being around dogs.",
-        "New York",
-        R.drawable.benard_puppy
-    ),
+
+
 
 )

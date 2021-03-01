@@ -28,6 +28,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.androiddevchallenge.model.Puppy
 import com.example.androiddevchallenge.ui.theme.*
+import com.example.androiddevchallenge.utils.genderColor
+import com.example.androiddevchallenge.utils.getBackgroundColor
+import com.example.androiddevchallenge.utils.getGenderIcon
 
 @Composable
 fun PuppyListDogCard(puppy: Puppy) {
@@ -127,19 +130,7 @@ fun PuppyListDogCard(puppy: Puppy) {
     }
 }
 
-fun genderColor(gender: String): Color {
-    return if (gender == "Male") male else female
-}
 
-
-fun getBackgroundColor(): Color {
-    val colorsList = listOf(red, green, blue, orange)
-    return colorsList.random()
-}
-
-fun getGenderIcon(gender: String): ImageVector {
-    return if (gender == "Male") Icons.Default.Male else Icons.Default.Female
-}
 
 
 
